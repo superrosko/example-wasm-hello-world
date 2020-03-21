@@ -2,11 +2,12 @@
 #include <emscripten/emscripten.h>
 #endif
 
-extern "C" {
+extern "C"
+{
     EMSCRIPTEN_KEEPALIVE
-    const char* getHelloMessage()
+    const char *getHelloMessage()
     {
-        const char* str = "Hello, world!";
+        const char *str = "Hello, world!";
         return str;
     }
 }

@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>WebAssembly Hello World!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .row {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #output {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div id="output"></div>
+    </div>
     <script src="hello_world.wasm.js"></script>
     <script>
         Module['onRuntimeInitialized'] = onRuntimeInitialized;
@@ -13,8 +32,6 @@
             element.textContent = helloMessage;
         }
     </script>
-</head>
-<body>
-    <div id="output"></div>
 </body>
+
 </html>
