@@ -9,6 +9,7 @@
 
 A simple example of using Emscripten for compile C++ to WASM
 
+Read more: https://rdevelab.ru/blog/no-category/post/example-wasm-hello-world.
 
 ## Credits
 
