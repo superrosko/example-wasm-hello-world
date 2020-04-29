@@ -7,7 +7,7 @@
 
 ## Introduction
 
-A simple example of using Emscripten for compile C++ to WASM
+A simple example of using Emscripten for compile C++ to WASM.
 
 Read more: https://rdevelab.ru/blog/web-assembly/post/example-wasm-hello-world.
 
